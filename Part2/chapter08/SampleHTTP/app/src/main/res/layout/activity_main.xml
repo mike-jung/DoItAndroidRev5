@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼을 누르면 HTTP 연결됩니다. 결과는 아래창에 표시됩니다."
+        android:textSize="16dp" />
+    
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+	    >
+		<EditText
+			android:id="@+id/input01"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:hint="사이트 주소 입력 ..."
+			android:textSize="18dp"
+			>
+		</EditText>
+		<Button
+			android:id="@+id/requestBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="HTTP 요청"
+			android:textSize="20dp"
+			android:textStyle="bold"
+			>
+		</Button>
+	</LinearLayout>
+	
+	<ScrollView
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+	    >
+		<TextView
+			android:id="@+id/txtMsg"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#ff99ccee"
+			android:textColor="#ff0000ff"
+			android:textSize="12dp"
+			>
+		</TextView>
+	</ScrollView>
+    
+</LinearLayout>

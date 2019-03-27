@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.androidtown.actionbar.MainActivity" >
+
+    <item android:id="@+id/menu_refresh"
+        android:title="새로고침"
+        android:icon="@drawable/menu_refresh"
+        android:orderInCategory="101"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menu_search"
+        android:title="검색"
+        android:icon="@drawable/menu_search"
+        android:orderInCategory="102"
+        app:showAsAction="always|withText" />
+
+    <item android:id="@+id/menu_settings"
+        android:title="설정"
+        android:icon="@drawable/menu_settings"
+        android:orderInCategory="103"
+        app:showAsAction="never" />
+
+</menu>

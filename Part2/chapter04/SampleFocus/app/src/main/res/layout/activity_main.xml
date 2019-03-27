@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000cc"
+        android:text="포커스 받기"
+        android:textSize="20dp"
+        android:focusable="true"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="텍스트를 입력하세요."
+        android:textSize="20dp"
+        android:background="@drawable/button_selector"
+        />
+
+    <Button
+        android:id="@+id/showButton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="보여주기"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

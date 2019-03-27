@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    >
+		<EditText
+			android:id="@+id/input01"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:hint="데이터베이스 이름 입력"
+			android:text="customer.db"
+			android:textSize="16dp"
+			>
+		</EditText>
+		<Button
+			android:id="@+id/queryBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="조회하기"
+			android:textStyle="bold"
+			>
+		</Button>
+	</LinearLayout>
+	
+	<ScrollView
+		android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    >
+		<TextView
+			android:id="@+id/status"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#ff99ccee"
+			android:textColor="#ff0000ff"
+			android:textSize="14dp"
+			>
+		</TextView>
+	</ScrollView>
+
+</LinearLayout>

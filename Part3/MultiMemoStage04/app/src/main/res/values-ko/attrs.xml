@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>  
+ 
+ <!-- These are the attributes that we want to retrieve from the theme
+         in view/Gallery1.java -->
+    <declare-styleable name="Gallery1">
+        <attr name="android:galleryItemBackground" />
+    </declare-styleable>
+</resources> 

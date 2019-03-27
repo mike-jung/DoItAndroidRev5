@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<TextView  
+		android:id="@+id/textView"
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp" 
+	    android:text="네트워크 지연 시간 시뮬레이션"
+	    android:textSize="18dp"
+	    />
+	
+	<Button  
+		android:id="@+id/requestButton"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:layout_gravity="center"
+	    android:layout_marginTop="10dp" 
+	    android:text="요청"
+	    android:textSize="16dp"
+	    />
+
+</LinearLayout>

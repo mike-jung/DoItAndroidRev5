@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<TextView
+		android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="센서 정보"
+	    android:paddingTop="4dp"
+	    android:paddingLeft="2dp"
+	    android:paddingRight="2dp"
+	    android:paddingBottom="10dp"/>
+
+	<ListView
+	    android:id="@android:id/list"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+
+</LinearLayout>

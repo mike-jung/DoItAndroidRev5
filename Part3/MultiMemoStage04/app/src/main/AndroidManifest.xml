@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.androidtown.multimemo" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.androidtown.multimemo.MultiMemoActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="org.androidtown.multimemo.MemoInsertActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name="org.androidtown.multimemo.PhotoCaptureActivity"
+            android:screenOrientation="landscape"
+            >
+        </activity>
+
+        <activity
+            android:name="org.androidtown.multimemo.PhotoSelectionActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name="org.androidtown.multimemo.HandwritingMakingActivity"
+            android:screenOrientation="landscape"
+            >
+        </activity>
+        <activity
+            android:name="org.androidtown.multimemo.PenPaletteDialog"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog"
+            android:screenOrientation="landscape"
+            >
+        </activity>
+        <activity
+            android:name="org.androidtown.multimemo.ColorPaletteDialog"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog"
+            android:screenOrientation="landscape"
+            >
+        </activity>
+
+        <activity
+            android:name="org.androidtown.multimemo.VideoRecordingActivity"
+            android:screenOrientation="landscape"
+            >
+        </activity>
+        <activity
+            android:name="org.androidtown.multimemo.VideoPlayActivity"
+            android:screenOrientation="landscape"
+            >
+        </activity>
+        <activity
+            android:name="org.androidtown.multimemo.VideoSelectionActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name="org.androidtown.multimemo.VoiceRecordingActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name="org.androidtown.multimemo.VoicePlayActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+    </application>
+
+</manifest>

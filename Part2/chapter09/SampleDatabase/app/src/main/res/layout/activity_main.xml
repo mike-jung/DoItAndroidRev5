@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp" >
+
+    <LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="10dp"
+	    >
+	   	<Button 
+			android:id="@+id/createDatabaseBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:width="120dp"
+			android:text="데이터베이스 생성"
+			android:textSize="14dp"
+			/>
+		<EditText  
+			android:id="@+id/databaseNameInput"
+		    android:layout_width="match_parent" 
+		    android:layout_height="wrap_content" 
+		    android:hint="데이터베이스 이름 입력"
+		    android:text="customer.db"
+		    android:textSize="18dp"
+		    />
+	</LinearLayout>
+	<LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="10dp"
+	    >
+	   	<Button 
+			android:id="@+id/createTableBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:width="120dp"
+			android:text="테이블 생성"
+			android:textSize="14dp"
+			/>
+		<EditText  
+			android:id="@+id/tableNameInput"
+		    android:layout_width="match_parent" 
+		    android:layout_height="wrap_content" 
+		    android:hint="테이블 이름을 입력"
+		    android:text="employee"
+		    android:textSize="18dp"
+		    />
+	</LinearLayout>
+	<TextView  
+		android:id="@+id/status"
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="상태 : "
+	    android:textSize="14dp"
+	    android:paddingLeft="10dp"
+	    android:layout_marginTop="10dp"
+	    />
+
+</LinearLayout>

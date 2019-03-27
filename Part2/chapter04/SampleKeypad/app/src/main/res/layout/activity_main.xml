@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcccccc"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/caption01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000ff"
+        android:text="inputType: text|textCapWords"
+        android:textColor="#ffffffff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextBox01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text|textCapWords"
+        android:padding="10dp"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/caption02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000ff"
+        android:text="inputType: number|numberSigned|numberDecimal"
+        android:textColor="#ffffffff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextBox02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:padding="10dp"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/caption03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000ff"
+        android:text="inputType: textEmailAddress"
+        android:textColor="#ffffffff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextBox03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/caption04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000ff"
+        android:text="inputType: textPassword"
+        android:textColor="#ffffffff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextBox04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/caption05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000ff"
+        android:text="inputType: phone"
+        android:textColor="#ffffffff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextBox05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/caption06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000ff"
+        android:text="inputType: date"
+        android:textColor="#ffffffff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextBox06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:padding="10dp"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/caption07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000ff"
+        android:text="inputType: time"
+        android:textColor="#ffffffff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextBox07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:padding="10dp"
+        android:textSize="16dp" />
+
+</LinearLayout>

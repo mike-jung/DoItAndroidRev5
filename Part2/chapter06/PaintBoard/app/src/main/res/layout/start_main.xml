@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+	<Button  
+		android:id="@+id/step01Button"
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+		android:layout_margin="20dp"
+		android:layout_gravity="center_horizontal"
+		android:text="페인트보드 1단계"
+		android:textColor="#ff000000"
+		android:textSize="20dp"
+		android:textStyle="bold"
+		android:padding="20dp"
+		/>
+	
+	<Button  
+		android:id="@+id/step02Button"
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+		android:layout_margin="20dp"
+		android:layout_gravity="center_horizontal"
+		android:text="페인트보드 2단계"
+		android:textColor="#ff000000"
+		android:textSize="20dp"
+		android:textStyle="bold"
+		android:padding="20dp"
+		/>
+
+	<Button  
+		android:id="@+id/step03Button"
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+		android:layout_margin="20dp"
+		android:layout_gravity="center_horizontal"
+		android:text="페인트보드 3단계"
+		android:textColor="#ff000000"
+		android:textSize="20dp"
+		android:textStyle="bold"
+		android:padding="20dp"
+		/>
+	
+</LinearLayout>

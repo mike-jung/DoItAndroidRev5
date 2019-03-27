@@ -1,0 +1,30 @@
+﻿<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffffff"
+    >
+    
+    <Button
+		android:id="@+id/broadcastBtn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_margin="10dp"
+	    android:textSize="20dp"
+	    android:textStyle="bold"
+	    android:textColor="#ff000000"
+	    android:text="태그 브로드캐스팅"
+	/>
+	
+	<TextView
+		android:id="@+id/text"
+	    android:layout_width="match_parent"
+	    android:layout_height="100dp"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textSize="20dp"
+	    android:textStyle="bold"
+	    android:textColor="#ff000000"
+	/>
+	
+</LinearLayout>

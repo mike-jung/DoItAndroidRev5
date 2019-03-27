@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">멀티메모</string>
+    <string name="main_title">멀티메모</string>
+    <string name="new_title">새 메모</string>
+    <string name="view_title">메모 보기</string>
+    <string name="memo_title">메모</string>
+    <string name="audio_play_title">음성재생</string>
+    <string name="audio_recording_title">음성녹음</string>
+    <string name="audio_recording_start_title">녹음 시작</string>
+    <string name="audio_recording_stop_title">녹음 중지</string>
+    <string name="video_recording_start_title">녹화 시작</string>
+    <string name="video_recording_stop_title">녹화 중지</string>
+    <string name="video_recording_message">녹화중입니다.</string>
+    <string name="selection_title">선택하세요</string>
+    <string name="color_selection_title">색상 선택</string>
+    <string name="pen_selection_title">굵기 선택</string>
+    <string name="save_btn">저장</string>
+    <string name="modify_btn">수정</string>
+    <string name="delete_btn">삭제</string>
+    <string name="close_btn">닫기</string>
+    <string name="confirm_btn">확인</string>
+    <string name="cancel_btn">취소</string>
+    <string name="selection_btn">선택</string>
+    <string name="yes_btn">예</string>
+    <string name="no_btn">아니오</string>
+    <string name="video_btn">동영상</string>
+    <string name="voice_btn">음성</string>
+    <string name="text_btn">텍스트</string>
+    <string name="handwriting_btn">손글씨</string>
+    <string name="color_btn">색상</string>
+    <string name="pen_btn">굵기</string>
+    <string name="eraser_btn">지우개</string>
+    <string name="undo_btn">이전</string>
+    <string name="handwriting_save_btn">손글씨 저장</string>
+    <string name="memo_delete_question">메모를 삭제하시겠습니까?</string>
+    <string name="text_input_message">텍스트를 입력하세요.</string>
+    <string name="no_sdcard_message">SD 카드가 없습니다. SD 카드를 넣은 후 다시 실행하십시오.</string>
+	<string name="select_picture_message">사진을 선택하세요.</string>
+	<string name="item_count">건</string>
+</resources>

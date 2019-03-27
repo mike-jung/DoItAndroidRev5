@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_photo">
+        <item>사진 촬영</item>
+        <item>사진 불러오기</item>
+    </string-array>
+    <string-array name="array_photo_ex">
+    	<item>사진 새로 촬영</item>
+    	<item>사진 새로 불러오기</item>
+        <item>사진 삭제</item>
+    </string-array>
+	<string-array name="array_video">
+        <item>영상 녹화</item>
+        <item>영상 불러오기 </item>
+    </string-array>
+    	<string-array name="array_video_ex">
+        <item>영상 재생</item>
+        <item>영상 새로 녹화</item>
+        <item>영상 새로 불러오기</item>
+        <item>영상 삭제</item>
+    </string-array>
+    <string-array name="array_voice">
+        <item>음성 녹음</item>
+    </string-array>
+    <string-array name="array_voice_ex">
+        <item>음성 재생</item>
+        <item>음성 새로 녹음</item>
+        <item>음성 삭제</item>
+    </string-array>
+    <string-array name="array_handwriting">
+        <item>손글씨 쓰기 </item>
+    </string-array>
+    <string-array name="array_handwriting_ex">
+        <item>손글씨 보기 </item>
+        <item>손글씨 새로 쓰기 </item>
+        <item>손글씨 삭제</item>
+    </string-array>
+</resources>

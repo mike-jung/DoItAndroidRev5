@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_photo">
+        <item>Take a Picture</item>
+        <item>Select from Album</item>
+    </string-array>
+    <string-array name="array_photo_ex">
+    	<item>Take a new Picture</item>
+    	<item>Re-select from Album</item>
+        <item>Delete Picture</item>
+    </string-array>
+	<string-array name="array_video">
+        <item>Record Video</item>
+        <item>Select from Album </item>
+    </string-array>
+    	<string-array name="array_video_ex">
+        <item>Play Video</item>
+        <item>Record a new Video</item>
+        <item>Re-select from Album</item>
+        <item>Delete Video</item>
+    </string-array>
+    <string-array name="array_voice">
+        <item>Record Audio</item>
+    </string-array>
+    <string-array name="array_voice_ex">
+        <item>Record Audio</item>
+        <item>Record a new Audio</item>
+        <item>Delete Audio</item>
+    </string-array>
+    <string-array name="array_handwriting">
+        <item>Make a Handwriting</item>
+    </string-array>
+    <string-array name="array_handwriting_ex">
+        <item>View Handwriting</item>
+        <item>Make a new Handwriting </item>
+        <item>Delete Handwriting</item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MultiMemo</string>
+    <string name="main_title">MultiMemo</string>
+    <string name="new_title">New Memo</string>
+    <string name="view_title">Memo View</string>
+    <string name="memo_title">Memo</string>
+    <string name="audio_play_title">Audio Play</string>
+    <string name="audio_recording_title">Audio Recording</string>
+    <string name="audio_recording_start_title">Start Recording</string>
+    <string name="audio_recording_stop_title">Stop Recording</string>
+    <string name="video_recording_start_title">Start Video Recording</string>
+    <string name="video_recording_stop_title">Stop Video Recording</string>
+    <string name="video_recording_message">In Video Recording...</string>
+    <string name="selection_title">Selection</string>
+    <string name="color_selection_title">Color Selection</string>
+    <string name="pen_selection_title">Pen Selection</string>
+    <string name="save_btn">Save</string>
+    <string name="modify_btn">Modify</string>
+    <string name="delete_btn">Delete</string>
+    <string name="close_btn">Close</string>
+    <string name="confirm_btn">Confirm</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="selection_btn">Select</string>
+    <string name="yes_btn">Yes</string>
+    <string name="no_btn">No</string>
+    <string name="video_btn">Video</string>
+    <string name="voice_btn">Voice</string>
+    <string name="text_btn">Text</string>
+    <string name="handwriting_btn">HandWriting</string>
+    <string name="color_btn">Color</string>
+    <string name="pen_btn">Pen</string>
+    <string name="eraser_btn">Eraser</string>
+    <string name="undo_btn">Undo</string>
+    <string name="handwriting_save_btn">Save Handwriting</string>
+    <string name="memo_delete_question">Do you really want to delete the memo?</string>
+    <string name="text_input_message">Input a text.</string>
+    <string name="no_sdcard_message">No SD card. Please insert SD card first.</string>
+    <string name="select_picture_message">Select a picture.</string>
+</resources>

@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="메뉴를 선택하면 여기에 표시됩니다."
+        android:textSize="16dp"
+        android:textColor="#ffad8745" />
+    
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:text="액션바 아이콘 바꾸기"
+        android:textSize="16dp"
+        android:onClick="onButton1Clicked" />
+
+</RelativeLayout>

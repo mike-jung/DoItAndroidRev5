@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+	<TextView
+		android:id="@+id/loading_selectedVideo"
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:textSize="25sp"
+	    android:background="#ff555555"
+	    android:text="Select Video"
+	    android:textColor="#ffffffff"
+	    android:layout_alignParentTop="true"
+	    android:gravity="center"
+	    android:singleLine="true"
+	    android:ellipsize="marquee"
+		/>
+  	<LinearLayout
+        android:id="@+id/loading_bottomLayout"
+        android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+ 		>
+		<org.androidtown.multimemo.common.TitleBitmapButton
+			android:id="@+id/loading_okBtn"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/confirm_btn"
+			/>
+		<org.androidtown.multimemo.common.TitleBitmapButton
+			android:id="@+id/loading_cancelBtn"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/cancel_btn"
+			/>
+	 </LinearLayout>
+  	<ListView
+		android:id="@+id/loading_listview"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/loading_selectedVideo"
+	    android:layout_above="@id/loading_bottomLayout"
+	    android:spacing="5dp"
+	    android:layout_marginTop="5dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginBottom="5dp"
+		/>
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="20dp"
+        android:padding="10dp"
+		android:background="#ff0033cc"
+        android:text="선택한 값"
+		android:textColor="#ffffffff"
+		android:textSize="36dp"
+		android:textStyle="bold"
+		android:gravity="center_horizontal"
+		/>
+	
+	<Spinner
+		android:id="@+id/spinner"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		/>
+
+</LinearLayout>

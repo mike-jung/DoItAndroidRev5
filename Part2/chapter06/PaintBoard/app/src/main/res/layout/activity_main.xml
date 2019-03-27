@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+    	android:id="@+id/toolsLayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:padding="5dp"
+	    android:background="#ffffffff"
+	    >
+		<Button  
+			android:id="@+id/colorBtn"
+			android:drawableTop="@drawable/colorpalette"
+			android:drawablePadding="2dp"
+			android:text="Color"
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+			/>
+		<Button  
+			android:id="@+id/penBtn"
+			android:drawableTop="@drawable/penpalette"
+			android:drawablePadding="2dp"
+			android:text=" Pen "
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+			/>	
+		<Button  
+			android:id="@+id/eraserBtn"
+			android:drawableTop="@drawable/eraser"
+			android:drawablePadding="2dp"
+			android:text="Eraser"
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+			/>	
+		<Button  
+			android:id="@+id/undoBtn"
+			android:drawableTop="@drawable/undo"
+			android:drawablePadding="2dp"
+			android:text=" Undo "
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+			/>	
+	</LinearLayout>
+	
+	<LinearLayout 
+    	android:id="@+id/boardLayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal"
+	    >
+	</LinearLayout>
+
+</LinearLayout>
