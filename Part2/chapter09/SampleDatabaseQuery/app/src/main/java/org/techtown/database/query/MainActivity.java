@@ -1,4 +1,4 @@
-package org.techtown.database.query;
+﻿package org.techtown.database.query;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         println("\nexecuteRawQueryParam2 called.\n");
 
         String[] columns = {"name", "age", "phone"};
-        String whereStr = "where age > ?";
+        String whereStr = "age > ?";
         String[] whereParams = {"30"};
         Cursor c1 = db.query(TABLE_NAME, columns,
                 whereStr, whereParams,
