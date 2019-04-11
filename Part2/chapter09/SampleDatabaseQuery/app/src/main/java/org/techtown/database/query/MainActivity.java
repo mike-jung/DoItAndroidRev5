@@ -16,7 +16,6 @@ import android.widget.TextView;
  * 데이터베이스를 조회하는 방법을 알 수 있습니다.
  *
  * @author Mike
- *
  */
 public class MainActivity extends AppCompatActivity {
 
