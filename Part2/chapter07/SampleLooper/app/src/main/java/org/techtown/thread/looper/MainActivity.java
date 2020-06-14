@@ -68,12 +68,13 @@ public class MainActivity extends AppCompatActivity {
         ProcessHandler handler;
 
         public ProcessThread() {
-            handler = new ProcessHandler();
+            
         }
 
         public void run() {
             // 루퍼 사용
             Looper.prepare();
+            handler = new ProcessHandler();
             Looper.loop();
         }
 
